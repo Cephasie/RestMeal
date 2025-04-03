@@ -76,7 +76,7 @@ export function Cart() {
             <ShoppingCartEmpty />
             <h3 className="mt-4 text-lg font-medium">Your cart is empty</h3>
             <p className="text-gray-500 text-center mt-2">
-              Add some delicious items to your cart and they will appear here
+              Add some food items to your cart and they will appear here
             </p>
             <Button className="mt-6" onClick={toggleCart}>
               Continue with orders
