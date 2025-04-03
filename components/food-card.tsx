@@ -21,7 +21,7 @@ export function FoodCard({ id, image, title, price, discount, type }: FoodCardPr
   };
 
   return (
-    <Card className="overflow-hidden w-80 shadow-md transition-transform transform hover:scale-110 hover:shadow-lg cursor-pointer rounded-lg">
+    <Card className="overflow-hidden w-80 shadow-md transition-transform transform hover:scale-105 hover:shadow-lg cursor-pointer rounded-lg">
       <div className="relative">
         <img src={image || "/placeholder.svg?height=160&width=320"} alt={title} className="w-full h-40 object-cover" />
         {discount && (
